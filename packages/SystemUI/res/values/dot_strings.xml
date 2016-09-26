@@ -128,6 +128,13 @@
     <string name="screenrecord_lowquality_label">Lower quality for smaller file size</string>
 
     <!-- Power menu QS tile -->
-     <string name="quick_settings_power_menu_label">Power menu</string>
+    <string name="quick_settings_power_menu_label">Power menu</string>
+
+    <!-- Sync QS Tile -->
+    <string name="quick_settings_sync_label">Sync</string>
+    <string name="accessibility_quick_settings_sync_off">Sync off</string>
+    <string name="accessibility_quick_settings_sync_on">Sync on</string>
+    <string name="accessibility_quick_settings_sync_changed_off">Sync turned off</string>
+    <string name="accessibility_quick_settings_sync_changed_on">Sync turned on</string>
 
 </resources>
