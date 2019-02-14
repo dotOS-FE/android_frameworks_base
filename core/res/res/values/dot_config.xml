@@ -252,4 +252,7 @@
          to enable/disable DC dimming. -->
     <string name="config_deviceDcDimmingSysfsNode"></string>
 
+    <!-- Whether to enable OnePlus Camera hack -->
+    <bool name="config_enableOnePlusCameraHack">false</bool>
+
 </resources>
