@@ -1115,7 +1115,7 @@ public class Build {
      */
     public static boolean isBuildConsistent() {
         // Don't care on eng builds.  Incremental build may trigger false negative.
-        if (IS_ENG) return true;
+        /*if (IS_ENG) return true;
 
         if (IS_TREBLE_ENABLED) {
             // If we can run this code, the device should already pass AVB.
@@ -1128,6 +1128,7 @@ public class Build {
             }
 
             return result == 0;
+            return true;
         }
 
         final String system = SystemProperties.get("ro.system.build.fingerprint");
@@ -1150,7 +1151,7 @@ public class Build {
                         + " but vendor reported " + vendor);
                 return false;
             }
-        }
+        } */
 
         /* TODO: Figure out issue with checks failing
         if (!TextUtils.isEmpty(bootimage)) {
