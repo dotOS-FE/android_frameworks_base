@@ -452,7 +452,6 @@ public class BatteryMeterView extends LinearLayout implements
             mCircleDrawable.setShowPercent(drawPercentInside);
             mFullCircleDrawable.setShowPercent(drawPercentInside);
         }
-        updatePercentText();
     }
 
     public void setIsQsHeader(boolean isQs) {
