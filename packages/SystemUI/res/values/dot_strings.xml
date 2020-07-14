@@ -137,4 +137,7 @@
     <string name="accessibility_quick_settings_sync_changed_off">Sync turned off</string>
     <string name="accessibility_quick_settings_sync_changed_on">Sync turned on</string>
 
+    <!-- Oneplus Analog clock -->
+    <string name="clock_title_oneplus_roman" translatable="false">OnePlus Roman</string>
+
 </resources>
