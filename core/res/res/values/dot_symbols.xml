@@ -156,4 +156,7 @@
      <java-symbol type="integer" name="config_smartCutoffTemperature" />
      <java-symbol type="integer" name="config_smartCutoffResumeTemperature" />
 
+     <!-- DC Dimming -->
+     <java-symbol type="string" name="config_deviceDcDimmingSysfsNode" />
+
 </resources>

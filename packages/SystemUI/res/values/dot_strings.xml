@@ -143,4 +143,9 @@
     <!-- Oneplus Numbers clock -->
     <string name="clock_title_oneplus_numbers" translatable="false">OnePlus Numbers</string>
 
+    <!-- DC Dimming -->
+    <string name="quick_settings_dc_dimming_label">DC Dimming</string>
+    <string name="quick_settings_dc_brightness_mode">Brightness mode</string>
+    <string name="quick_settings_dc_full_auto">Auto mode</string>
+
 </resources>
