@@ -5695,6 +5695,12 @@ public final class Settings {
         public static final String GAMING_MODE_DYNAMIC_STATE = "gaming_mode_dynamic_state";
 
         /**
+         * Show 4G instead of LTE
+         * @hide
+         */
+        public static final String SHOW_FOURG = "show_fourg";
+
+        /**
          * Keys we no longer back up under the current schema, but want to continue to
          * process when restoring historical backup datasets.
          *
@@ -5890,6 +5896,7 @@ public final class Settings {
             PRIVATE_SETTINGS.add(EDGE_MUSIC_CONTROL);
             PRIVATE_SETTINGS.add(SYSTEMUI_PLUGIN_VOLUME);
             PRIVATE_SETTINGS.add(SCREENSHOT_SOUND);
+            PRIVATE_SETTINGS.add(SHOW_FOURG);
         }
 
         /**
