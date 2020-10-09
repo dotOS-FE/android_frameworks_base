@@ -5731,6 +5731,12 @@ public final class Settings {
         public static final String HIDE_SMART_REPLIES = "hide_smart_replies";
 
         /**
+         * Controls whether to show notification headers
+         * @hide
+         */
+        public static final String NOTIFICATION_HEADERS = "notification_headers";
+
+        /**
          * Keys we no longer back up under the current schema, but want to continue to
          * process when restoring historical backup datasets.
          *
@@ -5928,6 +5934,7 @@ public final class Settings {
             PRIVATE_SETTINGS.add(SCREENSHOT_SOUND);
             PRIVATE_SETTINGS.add(SHOW_FOURG);
             PRIVATE_SETTINGS.add(HIDE_SMART_REPLIES);
+            PRIVATE_SETTINGS.add(NOTIFICATION_HEADERS);
         }
 
         /**
