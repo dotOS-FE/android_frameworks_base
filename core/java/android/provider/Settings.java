@@ -4976,6 +4976,8 @@ public final class Settings {
          */
         public static final String MENU_WAKE_SCREEN = "menu_wake_screen";
 
+        public static final String SYSTEMUI_PLUGIN_VOLUME = "systemui_plugin_volume";
+
         /**
          * Whether to wake the screen with the assist key, the value is boolean.
          * 0 = 0ff, 1 = on
@@ -5802,6 +5804,7 @@ public final class Settings {
             PRIVATE_SETTINGS.add(STATUSBAR_ICONS_STYLE);
             PRIVATE_SETTINGS.add(BACK_GESTURE_HAPTIC);
             PRIVATE_SETTINGS.add(EDGE_MUSIC_CONTROL);
+            PRIVATE_SETTINGS.add(SYSTEMUI_PLUGIN_VOLUME);
         }
 
         /**
