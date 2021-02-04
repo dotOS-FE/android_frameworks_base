@@ -5657,6 +5657,12 @@ public final class Settings {
         public static final String GAMING_MODE_VALUES = "gaming_mode_values";
         public static final String GAMING_MODE_DUMMY = "gaming_mode_dummy";
 
+	/**
+         * Enable and disable Artwork on background media notification
+         * @hide
+         */
+        public static final String ARTWORK_MEDIA_BACKGROUND = "artwork_media_background";
+
         /**
          * Whether to disable hardware keys in gaming mode
          * @hide
