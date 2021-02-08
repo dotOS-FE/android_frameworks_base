@@ -9710,6 +9710,10 @@ public final class Settings {
          * @hide
          */
         public static final String MONET_PALETTE = "monet_palette";
+         * Position of gesture bar length slider.
+         * @hide
+         */
+        public static final String GESTURE_NAVBAR_RADIUS = "gesture_navbar_radius";
 
         /**
          * Current provider of proximity-based sharing services.
