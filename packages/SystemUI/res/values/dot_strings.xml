@@ -152,4 +152,6 @@
     <string name="gaming_mode_not_enabled">Gaming mode is disabled in settings</string>
     <string name="quick_settings_gaming_mode_label">Gaming mode</string>
 
+    <string name="date_long_title_today">Today is %s</string>
+
 </resources>
