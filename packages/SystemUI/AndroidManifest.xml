@@ -298,6 +298,8 @@
     <!-- QS Tiles -->
     <uses-permission android:name="android.permission.MAINLINE_NETWORK_STACK" />
 
+    <protected-broadcast android:name="com.android.systemui.action.PLUGIN_CHANGED" />
+
     <!-- Sync tile -->
     <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
     <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
