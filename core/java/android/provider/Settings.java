@@ -9873,6 +9873,12 @@ public final class Settings {
          */
         public static final String ASSIST_HANDLES_LEARNING_EVENT_COUNT =
                 "reminder_exp_learning_event_count";
+				
+		/**
+         * Face Unlock Method
+         * @hide
+         */
+        public static final String FACE_UNLOCK_METHOD = "face_unlock_method";
 
         /**
          * The time in ms to keep the button backlight on after pressing a button.
