@@ -5456,6 +5456,12 @@ public final class Settings {
          */
         public static final String ADVANCED_REBOOT = "advanced_reboot";
 
+	/**
+         * Show app volume rows in volume panel
+         * @hide
+         */
+        public static final String SHOW_APP_VOLUME = "show_app_volume";
+
         /**
          * Whether the phone ringtone should be played in an increasing manner
          * 0 = 0ff, 1 = on
