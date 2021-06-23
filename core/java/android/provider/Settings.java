@@ -5327,6 +5327,11 @@ public final class Settings {
          */
         public static final String STATUSBAR_CLOCK_SECONDS = "statusbar_clock_seconds";
 
+	/**
+         * @hide
+        */
+        public static final String EDGE_MUSIC_CONTROL = "edge_music_control";
+
         /**
          * AM/PM Style for clock options
          * 0 - Normal AM/PM
@@ -5717,6 +5722,7 @@ public final class Settings {
             PRIVATE_SETTINGS.add(SWIPE_TO_SCREENSHOT);
             PRIVATE_SETTINGS.add(STATUSBAR_ICONS_STYLE);
             PRIVATE_SETTINGS.add(BACK_GESTURE_HAPTIC);
+            PRIVATE_SETTINGS.add(EDGE_MUSIC_CONTROL);
         }
 
         /**
