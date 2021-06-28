@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<!-- Copyright (C) 2018 dotOS Project
+<!-- 
+     Copyright (C) 2020 crDroid Android Project
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -11,19 +11,37 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:gravity="center_vertical|fill_horizontal"
-          android:start="4dp"
-          android:end="4dp">
-        <shape android:shape="rectangle" 
-    xmlns:android="http://schemas.android.com/apk/res/android">
-    <size android:height="13dp" android:width="5dp" />
-    <corners android:radius="30dp" />
-	<gravity android:gravity="center_vertical" />
-    <solid android:color="@android:color/transparent" />
-    <stroke
-        android:width="2dip"
-        android:color="@color/switch_track_material"/>
-</shape>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <layer-list>
+            <item>
+                <shape android:visible="true" android:shape="rectangle" android:useLevel="false">
+                    <solid android:color="@color/switch_track_material" />
+                    <corners android:radius="25dp" />
+                    <size android:height="18dp" android:width="25dp" />
+                </shape>
+            </item>
+            <item android:drawable="@drawable/ic_done_material" 
+                android:height="18dp"
+                android:width="18dp"
+                android:left="2dp"
+                android:gravity="left|center_vertical" />
+        </layer-list>
     </item>
-</layer-list>
+    <item android:state_checked="false">
+        <layer-list>
+            <item>
+                <shape android:visible="true" android:shape="rectangle" android:useLevel="false">
+                    <solid android:color="@color/switch_track_material" />
+                    <corners android:radius="25dp" />
+                    <size android:height="18dp" android:width="25dp" />
+                </shape>
+            </item>
+            <item android:drawable="@drawable/ic_minimize_material" 
+                android:height="18dp"
+                android:width="18dp"
+                android:right="2dp"
+                android:gravity="right|center_vertical" />
+        </layer-list>
+    </item>
+</selector>
